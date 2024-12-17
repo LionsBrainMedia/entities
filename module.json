@@ -1,0 +1,52 @@
+{
+  "id": "entities",
+  "title": "Entities",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Foundry VTT support for Entities from Pathfinder Infinite.",
+  "url": "https://github.com/LionsBrainMedia/entities",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/entities/refs/heads/main/module.json",
+"download": "https://github.com/LionsBrainMedia/entities/archive/refs/heads/main.zip",
+
+  "packs": [
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "player-options",
+      "label": "Player Options",
+      "path": "packs/player-options",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
