@@ -1,7 +1,7 @@
 {
   "id": "entities",
   "title": "Entities",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
